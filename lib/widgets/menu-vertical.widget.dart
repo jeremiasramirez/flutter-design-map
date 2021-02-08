@@ -1,27 +1,32 @@
 import 'package:flutter/material.dart';
 
+import 'menu-items.widget.dart';
+
 
 class MenuVertical extends Container{
 
-  Container build(context){
+  Widget build(context){
 
-    return Container(
+    return Row(
       
-      child: Row(
+      children: [
+ 
+        MenuItems("Share", Icon(Icons.share)),
+        SizedBox(width:28.0),
 
-        children: [
+        MenuItems("Navigate", Icon(Icons.navigation_outlined)),
+        SizedBox(width:28.0),
 
-          Text('1'),
-          Text('2'),
-          Text('3')
-          
-        ],
+        MenuItems("Call", Icon(Icons.call)),
+        SizedBox(width:28.0),
+        
+        MenuItems("Save", Icon(Icons.save_alt_outlined)),
+         
+      ]
 
-      )
-
-
+        
     );
-
   }
 
 }
+ 

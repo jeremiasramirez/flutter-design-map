@@ -18,10 +18,17 @@ class MainPage extends StatelessWidget{
           scrollDirection: Axis.vertical,
           
           children: [
+            safe(Poster()), 
 
-            safe(Poster()),
-            MenuVertical()
+            Row( 
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              
+              children: [
 
+                MenuVertical(), 
+
+              ]
+            )
           ],
           
         )
@@ -37,3 +44,6 @@ class MainPage extends StatelessWidget{
   }
 
 }
+
+
+
