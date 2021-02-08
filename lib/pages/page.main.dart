@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mapview/widgets/menu-vertical.widget.dart';
 import 'package:mapview/widgets/poster.widget.dart';
 
 
@@ -15,11 +16,14 @@ class MainPage extends StatelessWidget{
           
           physics: BouncingScrollPhysics(),
           scrollDirection: Axis.vertical,
+          
           children: [
 
             safe(Poster()),
-            
+            MenuVertical()
+
           ],
+          
         )
 
       ),
