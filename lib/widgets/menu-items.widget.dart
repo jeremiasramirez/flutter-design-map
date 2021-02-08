@@ -13,7 +13,7 @@ Column MenuItems(String name,Icon icon){
            onPressed: (){}
          ),
          
-         Text(name,style:TextStyle(color:Colors.grey[700],fontSize:16,fontWeight: FontWeight.bold))
+         Text(name,style:TextStyle(color:Colors.red[900],fontSize:16,fontWeight: FontWeight.bold))
 
 
        ]
