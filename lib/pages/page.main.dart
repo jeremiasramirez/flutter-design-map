@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:mapview/widgets/poster.widget.dart';
 
 
@@ -13,16 +12,13 @@ class MainPage extends StatelessWidget{
       home: Scaffold(
 
         body: ListView(
-
+          
           physics: BouncingScrollPhysics(),
           scrollDirection: Axis.vertical,
           children: [
 
             safe(Poster()),
-           
-             
-
-
+            
           ],
         )
 
