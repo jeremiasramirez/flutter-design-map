@@ -11,16 +11,16 @@ class MenuVertical extends Container{
       
       children: [
  
-        MenuItems("Share", Icon(Icons.share)),
+        MenuItems("Share", Icon(Icons.share, size:27)),
         SizedBox(width:28.0),
 
-        MenuItems("Navigate", Icon(Icons.navigation_outlined)),
+        MenuItems("Navigate", Icon(Icons.navigation_outlined, size:27)),
         SizedBox(width:28.0),
 
-        MenuItems("Call", Icon(Icons.call)),
+        MenuItems("Call", Icon(Icons.call, size:27)),
         SizedBox(width:28.0),
         
-        MenuItems("Save", Icon(Icons.save_alt_outlined)),
+        MenuItems("Save", Icon(Icons.save_alt_outlined, size:27)),
          
       ]
 
