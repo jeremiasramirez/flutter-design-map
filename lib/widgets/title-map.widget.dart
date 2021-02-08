@@ -18,7 +18,7 @@ class TitleMap extends Container{
       ),
 
        child: Column(children: [
-        Text('Las vega city', style: TextStyle(fontSize: 26,color:Colors.red[900])),
+        Text('Las vega city', style: TextStyle(fontWeight: FontWeight.bold,fontSize: 26,color:Colors.red[900])),
         SizedBox(height:3),
         Text('Night View',  style: TextStyle(fontSize: 18,color:Colors.red[500]))
       ]),
