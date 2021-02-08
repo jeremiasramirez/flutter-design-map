@@ -9,7 +9,7 @@ class Poster extends Container{
   Widget build(context){
     
     return ClipRRect(
-      borderRadius: BorderRadius.only(topLeft:  Radius.circular(15), topRight: Radius.circular(15)),
+      borderRadius: BorderRadius.only(bottomLeft:  Radius.circular(7), bottomRight: Radius.circular(7)),
       child:Container(
         
         color: Color.fromRGBO(10,10,10,.9),
@@ -18,7 +18,7 @@ class Poster extends Container{
           height: 230.0,
           fit:BoxFit.cover,
           placeholder: AssetImage('assets/images/loading.gif'),
-          image: NetworkImage('https://cdn.pixabay.com/photo/2021/02/02/17/12/forest-5974610_960_720.jpg')
+          image: NetworkImage('https://cdn.pixabay.com/photo/2015/03/19/14/30/las-vegas-680953_960_720.jpg')
         ) 
         
       )

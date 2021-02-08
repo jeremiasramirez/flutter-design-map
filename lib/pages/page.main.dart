@@ -3,6 +3,7 @@ import 'package:mapview/widgets/description-view.widget.dart';
 import 'package:mapview/widgets/floating-button.widget.dart';
 import 'package:mapview/widgets/menu-vertical.widget.dart';
 import 'package:mapview/widgets/poster.widget.dart';
+import 'package:mapview/widgets/title-map.widget.dart';
 
 
 
@@ -22,17 +23,21 @@ class MainPage extends StatelessWidget{
           
           children: [
             safe(Poster()), 
+           
 
-            Row( 
+            Container(
+             
+              child: Row( 
 
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 MenuVertical(), 
-              ]
+                ]
+              )
             ),
-
-              DescriptionView(),
-              DescriptionView()
+            TitleMap(),
+            DescriptionView(),
+            DescriptionView()
               
           ],
           
@@ -49,4 +54,5 @@ class MainPage extends StatelessWidget{
   }
 
 }
+
 
